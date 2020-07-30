@@ -5,7 +5,7 @@
 * The main reason/motivation for this repository arose when I was brushing up my DS &amp; Algo concepts. I failed to find any good and complete reference/blog/article where I could find custom implementations in Kotlin.
 * I used Kotlin for the same as I love it's inclination towards Functional Programming.
 
-###Accessing the user table
+###Details
 * Implementation of [SinglyLinkedList](https://github.com/ankuranurag2/Data-strucutres-in-Kotlin/blob/master/src/ds/MyLinkedList.kt)
 * Implementation of [DoublyLinkedList](https://github.com/ankuranurag2/Data-strucutres-in-Kotlin/blob/master/src/ds/MyDoublyLinkedList.kt)
 * Implementation of [HashMap](https://github.com/ankuranurag2/Data-strucutres-in-Kotlin/blob/master/src/ds/MyHashMap.kt)
