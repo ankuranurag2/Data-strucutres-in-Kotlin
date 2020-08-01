@@ -4,14 +4,14 @@ package ds
  * Created by ankur on 09/07/20
  */
 
-class DynamicAray {
+class DynamicArray {
     private val INCREMENT_THRESHOLD = 2
     private var items = IntArray(1)
     private var capacity = 1
-    private var current = 0
+    private var currentSize = 0
 
     fun push(data: Int) {
-        if (current == capacity) {
+        if (currentSize == capacity) {
             val newCapacity = (INCREMENT_THRESHOLD * capacity)
             val tempArray = IntArray(newCapacity)
             items.forEachIndexed { index, item ->
@@ -20,8 +20,8 @@ class DynamicAray {
             capacity = newCapacity
             items = tempArray
         }
-        items[current] = data
-        current++
+        items[currentSize] = data
+        currentSize++
     }
 
     fun pushAtIndex(data: Int, index: Int) {
@@ -31,17 +31,17 @@ class DynamicAray {
             items[index] = data
     }
 
-    fun pop() = current--
+    fun pop() = currentSize--
 
-    fun size() = current
+    fun size() = currentSize
 
     fun capacity() = capacity
 
-    fun get(index: Int) = if (index < current) items[index] else throw ArrayIndexOutOfBoundsException()
+    fun get(index: Int) = if (index < currentSize) items[index] else throw ArrayIndexOutOfBoundsException()
 }
 
 fun main() {
-    val array = DynamicAray()
+    val array = DynamicArray()
 
     array.push(10)
     array.push(20)
