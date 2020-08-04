@@ -4,7 +4,6 @@ package ds
  * Created by ankur on 01/08/20
  */
 
-//Linked
 private class StackUsingLinkedList {
 
     private inner class Node(var data: Any) {
@@ -51,6 +50,7 @@ private class StackUsingLinkedList {
     }
 }
 
+//Driver Code
 fun main() {
     val myStack = StackUsingLinkedList()
 
