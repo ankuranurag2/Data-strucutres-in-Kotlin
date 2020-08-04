@@ -10,3 +10,6 @@
 * Implementation of [DoublyLinkedList](https://github.com/ankuranurag2/Data-strucutres-in-Kotlin/blob/master/src/ds/MyDoublyLinkedList.kt)
 * Implementation of [HashMap](https://github.com/ankuranurag2/Data-strucutres-in-Kotlin/blob/master/src/ds/MyHashMap.kt)
 * Implementation of [DynamicArray/ArrayList](https://github.com/ankuranurag2/Data-strucutres-in-Kotlin/blob/master/src/ds/DynamicArray.kt)
+* Implementation of Stacks using LinkedList [StackUsingLinkedList](https://github.com/ankuranurag2/Data-strucutres-in-Kotlin/blob/master/src/ds/StackUsingLinkedList.kt)
+* Implementation of Stacks using Array [StackUsingArray](https://github.com/ankuranurag2/Data-strucutres-in-Kotlin/blob/master/src/ds/StackUsingArray.kt)
+* Implementation of Queues using LinkedList [QueuesUsingLinkedList](https://github.com/ankuranurag2/Data-strucutres-in-Kotlin/blob/master/src/ds/QueuesUsingLinkedList.kt)
