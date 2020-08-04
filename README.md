@@ -1,3 +1,4 @@
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.3-blue)](http://kotlinlang.org)
 # Custom Data Structures implementation in Kotlin language
 
 ### About this repository
